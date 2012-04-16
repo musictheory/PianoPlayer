@@ -77,7 +77,7 @@ typedef struct {
 
 - (void) write
 {
-    NSLog(@"Writing: %@", _path);
+    fprintf(stdout, "Writing %s\n", [_path UTF8String]);
 
     NSUInteger i;
     NSUInteger length = _capacity;

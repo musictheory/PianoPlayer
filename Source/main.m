@@ -57,7 +57,10 @@ static NSInteger sGetMIDIValueForString(NSString *string)
 
 int main(int argc, char *argv[]) { @autoreleasepool
 {
-    if (argc != 3) fprintf(stderr, "Usage: PianoPlayer input_file output_wav\n");
+    if (argc != 3) {
+        fprintf(stderr, "Usage: PianoPlayer input_file output_wav\n");
+        exit(1);
+    }
 
     NSError  *error       = nil;
     NSString *inputPath   = [NSString stringWithCString:argv[1] encoding:NSUTF8StringEncoding];

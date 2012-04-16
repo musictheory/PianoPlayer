@@ -1,0 +1,17 @@
+C2   0.0   1.35     fast-release
+E2   1.4   1.35     fast-release
+G2   2.8   1.45     fast-release
+
+C3   4.3   1.35     fast-release
+E3   5.7   1.35     fast-release
+G3   7.1   1.45     fast-release
+
+C4   8.6   1.35     fast-release
+E4   10.0  1.35     fast-release
+G4   11.4  1.45     fast-release
+
+C5   12.9  1.35     fast-release
+E5   14.3  1.35     fast-release
+G5   15.7  1.45     fast-release
+
+C6   17.2  1.35     fast-release
